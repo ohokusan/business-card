@@ -1,0 +1,91 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Helvetica, sans-serif;
+    background-color: #04395e;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 5px;
+}
+
+h3, p, h4 {
+    color: #669bbc;
+    margin:0;
+    font-weight: normal;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #04395e;
+    font-weight: bold;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+button {
+    display: flex;
+    background-color: #e5e5e5;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    padding: 8px 16px;
+}
+
+button img {
+    width: 16px;
+    margin-right: 8px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    color: #c1121f;
+    border: 2px solid #222;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #CCC;
+} 
+
+button:active, button:focus {
+    border: none;
+} 
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
